@@ -1,4 +1,4 @@
-# Desktop · Detail Artikel Single — design reference
+# Mobile · Detail Artikel Single — design reference
 
 This is a design mockup created in a visual design tool, exported as a
 standalone page. Treat it as a REFERENCE MOCKUP, not production code:
@@ -9,7 +9,7 @@ rather than copy wholesale.
 
 ## Contents
 
-- `DesktopDetailSingle.dc.html` — the artboard (a Design Component: an `<x-dc>`
+- `MobileDetailSingle.dc.html` — the artboard (a Design Component: an `<x-dc>`
   template + a small logic class). The values to replicate live in its
   inline `style="…"` attributes and the `<helmet><style>` block.
 - `support.js`, `vendor/react*.js` — the runtime that renders the
@@ -17,5 +17,5 @@ rather than copy wholesale.
 
 ## Viewing
 
-Serve the folder (e.g. `python3 -m http.server`) and open `DesktopDetailSingle.dc.html`;
+Serve the folder (e.g. `python3 -m http.server`) and open `MobileDetailSingle.dc.html`;
 some browsers block the scripts over file://.
